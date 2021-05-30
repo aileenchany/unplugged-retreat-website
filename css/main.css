@@ -98,14 +98,11 @@ html {
 body {
   background: #202322;
   color: #e2e3ed;
-  display: flex;
   font-size: 1em;
 }
 
 header, main, footer {
-  display:  flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  
 }
 
 a {
