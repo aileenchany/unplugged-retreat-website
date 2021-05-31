@@ -440,8 +440,68 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+  /* Homepage */
+
+  aside {
+    flex-fdirection: row;
+  }
+
+  .features {
+    width: 83%;
+  }
+
+  .features article {
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .features h2 {
+    width: 83%;
+    margin: 0;
+  }
+
+  /* About Page */
+
+  .mission-content {
+        display:
+        justify-content: space-between;
+        align-items: 
+    }
+ 
+    .mission-content p {
+        width: 
+    }
+ 
+    .contact-section .content-wrapper h2 {
+        width:
+    }
+ 
+    .contact-content {
+        display:
+        justify-content:
+        align-items:
+}
+
+  /* FAQ Page */
+
+  .faq .content-wrapper {
+        justify-content: space-between;
+    }
+    
+    .faq-content {
+        flex-basis: 40%;
+    }
+ 
+    .faq h2 {
+        width: 100%;
+    }
+
+}
+ 
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
 }
 
 @media print,
